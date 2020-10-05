@@ -19,5 +19,6 @@ Coding Day 2020-2 / Powercoders ZRH bootcamp
 **At the end of the coding day at 3.45pm sharp push your whole repo to Github and upload it as a zip to the Google Classroom assignment. Please include your name in the repo name.**
 
 
-Morning points: 195
-Total points: 540
+Morning points: 195 <br>
+Afternoon points: 280 <br>
+**Total points: 475**
