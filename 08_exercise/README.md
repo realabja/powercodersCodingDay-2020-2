@@ -21,6 +21,6 @@ Team work:
 - put your code together and on GitHub
 - present your quiz at the end of the day (10 min per group / every team member has to say something)
 
-Estimated time: 2 hours 30 minutes
-plus presentation: 10 minutes
-Total points: 270 (+30) 
+Estimated time: 2 hours 30 minutes <br>
+plus presentation: 10 minutes <br>
+Total points: 280
