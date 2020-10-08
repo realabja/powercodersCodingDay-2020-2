@@ -1,5 +1,5 @@
 const getFirstValue = function (array){
-    array = array.sort((a, b) => (a.name > b.name) ? 1 : -1);
+    array = array.sort();
     return array[array.length-1];
 
 
