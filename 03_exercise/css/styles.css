@@ -1,5 +1,12 @@
 /* Text Elements */
-
+body{
+  height: 100vh;
+  width: 100vw
+}
+main{
+  height: 100%;
+  height: 100%;
+}
 h1 {
   margin-bottom: .75rem;
   color: #dae4e9;
@@ -45,7 +52,8 @@ main {
 }
 
 img {
-  max-width: none;
+  /* max-width: none; */
+  object-fit: cover;
 }
 
 .fig-1 {
@@ -70,7 +78,16 @@ picture {
   }
 
   /* Layout Elements */
+  main {
+    padding-right: 0vw;
+    padding-left: 0vw;
 
+    grid-template-areas: '.aside .fig-2 .fig-2' 'title title .banner .banner .banner' '.fig-1 main .banner .banner .banner';
+    grid-template-rows: repeat(3 , 1fr);
+    grid-template-columns: repeat(5 , 1fr);
+    padding-top: 2vh;
+  
+  }
   aside {
     grid-area: aside;
   }
@@ -99,9 +116,16 @@ picture {
   @supports (display: grid) {
       /* Layout Elements */
 
-    main {
-      padding-top: 2vh;
-    }
+      main {
+        padding-right: 0vw;
+        padding-left: 0vw;
+  
+        grid-template-areas: '.aside .fig-2 .fig-2' 'title title .banner .banner .banner' '.fig-1 main .banner .banner .banner';
+        grid-template-rows: repeat(3 , 1fr);
+        grid-template-columns: repeat(5 , 1fr);
+        padding-top: 2vh;
+      
+      }
   }
 }
 
@@ -117,8 +141,8 @@ picture {
       padding-right: 0vw;
       padding-left: 0vw;
 
-      grid-template-areas: '. aside . fig-2 fig-2' 'title title banner banner banner' 'fig-1 main banner banner banner';
-      grid-template-rows: repeat(3 , auto);
+      grid-template-areas: '.aside .fig-2 fig-2' 'title title banner banner banner' 'fig-1 main banner banner banner';
+      grid-template-rows: repeat(3 , 1fr);
       grid-template-columns: repeat(5 , 1fr);
     }
 
