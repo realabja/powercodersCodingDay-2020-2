@@ -3,7 +3,9 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 }
 
-.robots {
+.robots{
+	display: flex;
+	justify-content: center;
 }
 
 .head, 
@@ -23,8 +25,8 @@ h1 {
 	margin-bottom: 10px;
 } 
 
-.eyes {
-	
+.eyes{
+	position: relative;
 }
 
 .head:hover {
@@ -63,13 +65,15 @@ h1 {
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
+	/* display: inline-block; */
 
 } 
 
 .left_leg, .right_leg { 
 	width: 40px; 
 	height: 120px;
-	border-radius: 0 0 100px 100px; 
+	border-radius: 0 0 100px 100px;
+	display: inline-block; 
 } 
 
 .left_leg { 
@@ -98,13 +102,13 @@ h1 {
 .left_eye { 
 	/* These properties are new and you haven't encountered
 	in this course. Check out CSS Tricks to see what it does! */
-	position: relative; 
+	position: absolute; 
 	top: 100px; 
 	left: 40px; 
 } 
 
 .right_eye { 
-	position: relative; 
+	position: absolute; 
 	top: 100px; 
 	left: 120px; 
 }
